@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+.digital{
+    padding: 20px;
+    max-width: 450px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 3px ;
+    background-color:rgba(1, 1, 1, 0.427);
+    width: 100%;
+}
+/* .digital:hover{
+    background-color: rgba(1, 1, 1,0.7);
+} */
+
+.digital h1{
+    padding:0px 30px;
+    position: relative;
+    font-size: 30px;
+    color: blue;
+    text-shadow: 6px 6px 6px white;
+  
+}
+.digital h4{
+    
+    border: 2px solid gray;
+    padding: 10px;
+    display: inline-block;
+    width: 70px;
+    height: 20px;
+    background-color: rgba(220, 215, 215, 0.568);
+}
+.App button{
+    width: 85px;
+    border-radius: 5px;
+    background-color: rgb(59, 59, 134);
+    color: white;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+.App button:hover{
+    background-color: blue;
+}
+@media screen and (max-width:600px) {
+    .digital{
+        max-width: 350px;
+    }
+    .digital h4{
+        max-width: 20px;
+    }
+}
